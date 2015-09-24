@@ -250,7 +250,6 @@ namespace ConsoleApplication
 
         public static string[] Process(SortedDictionary<string, Dictionary<string, int>> sourceDictionaryWords, string userString)
         {
-            //       var tr = new StreamWriter("file.out");
             var result = new string[10];
 
             if (sourceDictionaryWords.ContainsKey(userString) == true)
